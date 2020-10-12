@@ -12,7 +12,5 @@ class StaticPageController extends Controller
     public function corso(){
         return view('corso');
     }
-    public function studenti(){
-        return view('studenti');
-    }
+    
 }

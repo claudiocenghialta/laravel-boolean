@@ -10899,3 +10899,18 @@ a.text-dark:focus {
   }
 }
 
+header .navbar .navbar-brand img {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.elenco-cards-studenti.card-deck {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.elenco-cards-studenti.card-deck .card {
+  flex: 0 0 300px;
+  margin-top: 20px;
+}
+

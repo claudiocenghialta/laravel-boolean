@@ -1,0 +1,8 @@
+.elenco-cards-studenti.card-deck {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    .card {
+        flex: 0 0 300px;
+        margin-top: 20px;
+    }
+}
