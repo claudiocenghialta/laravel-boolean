@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'StaticPageController@home')->name('StaticPage.home');
 Route::get('/corso', 'StaticPageController@corso')->name('StaticPage.corso');
 Route::get('/studenti', 'StudentController@studenti')->name('Student.studenti');
+Route::get('/studenti/show/{id}', 'StudentController@show')->name('Student.show');
+Route::get('/studenti/{nome}', 'StudentController@slug')->name('Student.slug');
